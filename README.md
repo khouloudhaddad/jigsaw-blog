@@ -96,3 +96,6 @@ npm run dev
 
 #run the project
 ./vendor/bin/jigsaw serve
+
+#hot reloading
+npm run watch
