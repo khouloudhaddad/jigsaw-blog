@@ -7,14 +7,15 @@ return [
     'production' => false,
     'siteName' => 'Blog Starter Template',
     'siteDescription' => 'Generate an elegant blog with Jigsaw',
-    'siteAuthor' => 'Author Name',
+    'siteAuthor' => 'khouloud Haddad Amamou',
 
     // collections
     'collections' => [
         'posts' => [
-            'author' => 'Author Name', // Default author, if not provided in a post
+            'author' => 'khouloud Haddad Amamou', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => 'blog/{filename}',
+            'filter'
         ],
         'categories' => [
             'path' => '/blog/categories/{filename}',
